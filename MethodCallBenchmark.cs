@@ -5,7 +5,6 @@ namespace SealedPerformance;
 [MemoryDiagnoser]
 public class MethodCallBenchmark
 {
-    private readonly Person _person = new();
     private readonly Programmer _programmer = new();
     private readonly ProgrammerSealed _programmerSealed = new();
     
